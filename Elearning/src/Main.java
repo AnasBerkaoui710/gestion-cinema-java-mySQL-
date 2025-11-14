@@ -103,7 +103,7 @@ public class Main {
     }
 
     public void addCour(){
-        System.out.println("Entrer l'id du cour :");
+        System.out.print("Entrer l'id du cour :");
         Scanner scanner = new Scanner(System.in);
         int id = scanner.nextInt();
         scanner.nextLine();
