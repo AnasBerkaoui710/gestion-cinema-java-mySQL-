@@ -163,6 +163,7 @@ public class Main {
 
 
         }
+        System.out.println("Etudiant inscrit avec succés!!");
 
     }
 
