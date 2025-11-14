@@ -109,7 +109,7 @@ public class Main {
         scanner.nextLine();
 
 
-        System.out.println("Entrer le titre du cour :");
+        System.out.print("Entrer le titre du cour :");
         String titre = scanner.nextLine();
 
         System.out.println("Entrer la description du cour :");
