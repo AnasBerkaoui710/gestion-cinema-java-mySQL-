@@ -145,6 +145,17 @@ public class Main {
 
     }
 
+    public void displayCour(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("entrer l'Id du cour");
+        int idcour = scanner.nextInt();
+
+        Cour c = trouverCour(idcour);
+        if (c!=null){
+            displayCour();
+        }
+    }
+
 
 
 
