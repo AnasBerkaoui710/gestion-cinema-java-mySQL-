@@ -13,7 +13,13 @@ public class Compte {
         return solde += montant;
     }
 
-    public void retirer(double montant){
-        solde -= montant;
+    public double retirer(double montant){
+        if(montant<=solde){
+            System.out.println("retirement efffectué avec succee!!");
+            return solde -= montant;
+        }else{
+            System.out.println("Solde insufisant !!!");
+            return solde;
+        }
     }
 }
