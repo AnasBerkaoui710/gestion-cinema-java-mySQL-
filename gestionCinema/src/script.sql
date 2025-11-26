@@ -36,4 +36,9 @@ CREATE TABLE reservation(
     foreign key (id_seance) references seance (id)
 );
 
+ALTER TABLE seance
+ADD COLUMN id_film INT,
+ADD CONSTRAINT fk_seance_film FOREIGN KEY (id_film) REFERENCES film(id_film);
+
+
 
