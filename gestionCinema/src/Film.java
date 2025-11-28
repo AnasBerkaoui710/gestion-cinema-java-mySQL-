@@ -1,12 +1,12 @@
 public class Film {
     private int id_film;
-    private String titr;
+    private String titre;
     private int duree;
     private String categorie;
 
-    public Film(int id_film, String titr, int duree, String categorie) {
+    public Film(int id_film, String titre, int duree, String categorie) {
         this.id_film = id_film;
-        this.titr = titr;
+        this.titre = titre;
         this.duree = duree;
         this.categorie = categorie;
     }
@@ -19,12 +19,12 @@ public class Film {
         this.id_film = id_film;
     }
 
-    public String getTitr() {
-        return titr;
+    public String getTitre() {
+        return titre;
     }
 
-    public void setTitr(String titr) {
-        this.titr = titr;
+    public void setTitre(String titre) {
+        this.titre = titre;
     }
 
     public int getDuree() {
